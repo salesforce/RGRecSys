@@ -1,5 +1,6 @@
 # RGRecSys
-RGRecSys is developed using [RecBole library](https://dl.acm.org/doi/abs/10.1145/3459637.3482016) built-in models and covers several models from general and context-aware recommender systems. It has a robustness evaluation module that allows users to easily and uniformly evaluate recommender system robustness. 
+RGRecSys is a robustness evaluation toolkit for recommendation systems. Currently, the robustness tools in RGRecSys can be tested on general and context-aware recommendation models from [RecBole library](https://dl.acm.org/doi/abs/10.1145/3459637.3482016). Our toolkit allows users to easily and uniformly evaluate recommender system robustness. See our [paper](https://dl.acm.org/doi/abs/10.1145/3488560.3502192) for more details. 
+ 
 ## Requirements
 
 - python >= 3.7 
@@ -135,7 +136,7 @@ If you aim to use RGRecSys for your research or development, please cite the fol
 @inproceedings{10.1145/3488560.3502192,
 author = {Ovaisi, Zohreh and Heinecke, Shelby and Li, Jia and Zhang, Yongfeng and Zheleva, Elena and Xiong, Caiming},
 title = {RGRecSys: A Toolkit for Robustness Evaluation of Recommender Systems},
-url = {https://doi-org.proxy.cc.uic.edu/10.1145/3488560.3502192},
+url = {https://dl.acm.org/doi/abs/10.1145/3488560.3502192},
 doi = {10.1145/3488560.3502192},
 series = {WSDM '22}
 }
